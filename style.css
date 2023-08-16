@@ -6,6 +6,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-color: white;
 }
 
 .header,
@@ -151,4 +152,22 @@ ul {
 .quote-author {
     display: flex;
     justify-content: end;
+}
+
+.ad-container {
+    background-color: white;
+    height: 300px;
+}
+
+.ad {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    height: 60px;
+    background-color: #1F2937;
 }
